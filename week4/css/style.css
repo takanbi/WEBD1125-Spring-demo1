@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: pirulen;
+  src: url("../../fonts/pirulen rg.ttf");
+}
+@font-face {
+  font-family: space-age;
+  src: url("../../fonts/space age.ttf");
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container section#section-1 {
+  padding: 2em;
+  border: 40px solid transparent;
+  -o-border-image: url("../images/border-image.png") 20% round;
+     border-image: url("../images/border-image.png") 20% round;
+}
+.container section#section-1 h1#heading-1 {
+  font-size: 4em;
+  font-family: pirulen, san-serif;
+  border: 40px solid transparent;
+  padding: 1em;
+  -o-border-image: url("../images/border-image.png") 20% stretch;
+     border-image: url("../images/border-image.png") 20% stretch;
+}
+.container section#section-2 {
+  padding: 2em;
+}
+.container section#section-2 h1#heading-2 {
+  font-size: 4em;
+  font-family: pirulen, san-serif;
+  border: 0.25em solid red;
+  padding: 1em;
+  border-radius: 1em;
+  letter-spacing: 24px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: pirulen;
+  src: url("../../fonts/pirulen\ rg.ttf");
+}
+@font-face {
+  font-family: space-age;
+  src: url("../../fonts/space\ age.ttf");
+}
+#container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(22, 16, 56);
+  header {
+    height: 120px;
+    // background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 0 4em;
+    section#logo {
+        span#creative {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(129, 113, 6); 
+            font-size: 2.5em;   
+        }
+        span#web {
+            color: rgb(255,255,255);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 3.5em;
+            margin-left: 0.25em;  
+        }
+    }
+    nav {
+        margin-left: auto;
+        ul {
+            display: flex;
+            list-style: none;
+            li {
+                padding: 0 1em;
+                color: rgb(255,255,255);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.5em;
+            }
+        }
+    }
+  }
+  div#main-content {
+    height: calc(100vh - 240px);
+  }
+  footer {
+    height: 120px;
+    background-color: rgb(54, 40, 129);
+    display: flex;
+    section {
+        display: flex;
+        width: 50%;
+    }
+    section > section#social {
+        position: relative;
+        left: 8em;
+        top: 1em;
+        margin-left: auto;
+    }
+  }
+}
+
+/*
+rgb(22,16,56)
+rgb(129, 113, 6)
+rgb(54, 40, 129)
+rgb(101,101,101)
+rgb(56, 51, 16)
+rgb(0,0,0)
+rgb(255,255,255)
+*/
