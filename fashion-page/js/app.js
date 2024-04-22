@@ -13,7 +13,6 @@ new hoverEffect({
         opacity: 0,
         y: "20",
         ease: Expo.easeInOut,
-        stagger: 0.1
       }, 0.08);
   
       // MEDIA
